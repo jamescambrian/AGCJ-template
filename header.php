@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width" />
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
 <?php wp_head(); ?>
-    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="icon" type="image/png" href="<?php echo site_url(); ?>/favicon.png">
 </head>
 <body <?php body_class(); ?>>
 <!--SDK Facebook-->

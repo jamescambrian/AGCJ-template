@@ -25,19 +25,17 @@ p {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
 cursor: pointer;
-  text-decoration: none;
-}
-a:hover {
-}
-:focus{
-  background-color: transparent;
-  outline:none;
+text-decoration: none;
+color: $highlight;
+    &:hover{
+        color:$black;
+    }
 }
 
 a.no_colour{
     color:$black;
     @include fade(0.5s);
-    h3{font-size: 1.9rem;}
+    h3{font-size: 1.8rem;}
     &:hover{color:$highlight;}
 
 }

@@ -26,7 +26,7 @@ body{
 aside{
   @media (#{$bp-larger-than-mobile}){width:100%;position:relative; height:auto; }
   @media (#{$bp-larger-than-tablet}){width:35%;position:fixed; height: 100%;}
-  @media (#{$bp-larger-than-desktop}){width:20%;}
+  @media (#{$bp-larger-than-desktop}){width:25%;}
   @media (#{$bp-larger-than-desktophd}){width:20%;}
   top: 0;
   left: 0;
@@ -52,7 +52,7 @@ aside{
 .content{
   @media (#{$bp-larger-than-mobile}){width:100%;margin:0;}
   @media (#{$bp-larger-than-tablet}){width:65%;margin:0 35%;}
-  @media (#{$bp-larger-than-desktop}){width:80%;margin:0 20%;}
+  @media (#{$bp-larger-than-desktop}){width:75%;margin:0 25%;}
   @media (#{$bp-larger-than-desktophd}){width:80%;margin:0 20%;}
   figure{
     @media (#{$bp-larger-than-mobile}){width: 100%;}
@@ -248,8 +248,9 @@ position: absolute;
 }
 
 .no-feat{
+    font-size: 1.8rem;
     @media (#{$bp-larger-than-mobile}){margin-top: 0rem;}
-    @media (#{$bp-larger-than-desktop}){margin-top: 3rem;}
+    @media (#{$bp-larger-than-desktop}){margin-top: 3.5rem;}
     
 }
 
